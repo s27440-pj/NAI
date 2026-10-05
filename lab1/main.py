@@ -56,7 +56,7 @@ class DivisionGame(TwoPlayerGame):
         print(f"\nCurrent number: {self.current_number}")
         if not self.is_over():
             dividers = ", ".join(self.possible_moves())
-            print(f"Possible dividers: [{dividers}]")
+            print(f"Possible divisors: [{dividers}]")
 
     def scoring(self):
         return -1 if self.is_over() else 0
