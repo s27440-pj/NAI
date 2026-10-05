@@ -9,6 +9,8 @@ gracz2 dzieli na 2 - zostaje 10
 gracz1 dzieli na 2 - zostaje 5
 gracz2 dzieli na 5 - zostaje 1
 gracz1 został z 1 - przegrywa
+
+aby gra się uruchomiła należy zainstalować pakiet easyAI (pip install easyAI)
 """
 
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
