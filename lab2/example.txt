@@ -1,0 +1,63 @@
+Przykładowe wywołanie symulacji:
+
+$ python main.py 
+
+Symulacja 1
+ - Pedal gazu: 0.11
+ - Obroty [rpm]: 1292
+ - Przysp. [m/s^2]: -0.76
+Wynik: 0.6439816293159972 -> stay
+
+Symulacja 2
+ - Pedal gazu: 0.12
+ - Obroty [rpm]: 2583
+ - Przysp. [m/s^2]: -0.66
+Wynik: 0.7499999999999999 -> stay
+
+Symulacja 3
+ - Pedal gazu: 0.83
+ - Obroty [rpm]: 4124
+ - Przysp. [m/s^2]: 0.32
+Wynik: 0.7700087637618449 -> stay
+
+Symulacja 4
+ - Pedal gazu: 0.66
+ - Obroty [rpm]: 4744
+ - Przysp. [m/s^2]: -0.42
+Wynik: 0.8374250012371093 -> stay
+
+Symulacja 5
+ - Pedal gazu: 1.0
+ - Obroty [rpm]: 3161
+ - Przysp. [m/s^2]: -0.94
+Wynik: 0.7523956687956412 -> stay
+
+Symulacja 6
+ - Pedal gazu: 0.59
+ - Obroty [rpm]: 5786
+ - Przysp. [m/s^2]: -0.21
+Wynik: 0.9098443873226073 -> shift_up
+
+Symulacja 7
+ - Pedal gazu: 0.51
+ - Obroty [rpm]: 5838
+ - Przysp. [m/s^2]: 0.58
+Wynik: 0.910016728313875 -> shift_up
+
+Symulacja 8
+ - Pedal gazu: 0.13
+ - Obroty [rpm]: 4806
+ - Przysp. [m/s^2]: -0.31
+Wynik: 0.8499818951515048 -> stay
+
+Symulacja 9
+ - Pedal gazu: 0.62
+ - Obroty [rpm]: 3222
+ - Przysp. [m/s^2]: -0.35
+Wynik: 0.7532895636711803 -> stay
+
+Symulacja 10
+ - Pedal gazu: 0.09
+ - Obroty [rpm]: 1082
+ - Przysp. [m/s^2]: 0.08
+Wynik: 0.6232588348185274 -> shift_down

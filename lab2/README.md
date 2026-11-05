@@ -34,6 +34,7 @@ Program symuluje automatyczną skrzynię biegów w np. samochodzie - dobiera bie
 - Python 3.x
 - Biblioteka `scikit-fuzzy`
 - Biblioteka `numpy`
+- Zależności do powyższych: `scipy`, `networkx`
 
 ## Instalacja
 
@@ -42,6 +43,7 @@ Aby zainstalować zależności do tego programu, należy w konsoli wpisać:
 ```bash
 pip install scikit-fuzzy
 pip install numpy
+pip install scipy networkx
 ```
 
 ## Uruchomienie
